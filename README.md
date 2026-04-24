@@ -21,7 +21,7 @@ This is a modern To-Do web application that helps users manage daily tasks effic
 2. Open index.html in your browser
 
 ## Live Demo
-(Add your Netlify link here)
-
+https://dancing-starship-01ac35.netlify.app/
+ 
 ## Author
 Anamika Tomar
