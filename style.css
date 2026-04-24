@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    transition: 0.3s;
+}
+
+.add-btn {
+    background: #667eea;
+}
+
+.add-btn:hover {
+    background: #5a67d8;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-info {
+    flex: 1;
+    cursor: pointer;
+}
+
+.task-date {
+    font-size: 12px;
+    color: #777;
+}
+
+.actions button {
+    margin-left: 5px;
+}
+
+.delete-btn {
+    background: #e53e3e;
+}
+
+.edit-btn {
+    background: #38a169;
+}
+
+.empty {
+    text-align: center;
+    color: #aaa;
+    margin-top: 10px;
+}
